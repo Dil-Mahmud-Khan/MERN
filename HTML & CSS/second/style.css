@@ -1,0 +1,31 @@
+h1{
+    color:aqua;
+}
+.round{
+    background-color:rgb(172, 127, 255);
+    margin: 7px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+#button{
+    font: 200;
+    font-family: sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+.para{
+    background-color: #46a7a7fa;
+    padding: 18px;
+    margin: 7px;
+    border-radius: 10px;
+
+}
+#head{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+#box{
+    border-radius: 5%;
+    
+}
