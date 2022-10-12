@@ -1,0 +1,36 @@
+h1{
+    color: sandybrown;
+}
+h1:hover{
+    color:rosybrown;
+    background-color: aquamarine;
+    margin: 40px;
+
+}
+.middle:focus{
+    font-weight: 800;
+}
+a:visited{
+    color: red;
+}
+li{
+    color: hotpink;
+}
+li:first-child{
+    color: coral;
+}
+li:last-child{
+    color: blue;
+}
+li:nth-child(2n){
+    background-color: aqua;
+}
+li:nth-child(2n+1){
+    background-color: pink;
+}
+h3::before{
+    content: 'Hello';
+}
+h3::after{
+    content: "bye";
+}

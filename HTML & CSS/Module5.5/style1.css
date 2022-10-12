@@ -1,0 +1,15 @@
+.swin {
+    border: 25px dashed rgb(1, 24, 25);
+}
+
+.dil {
+    position: relative;
+    left: 30px;
+    top: -40px;
+}
+
+.kaka {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
