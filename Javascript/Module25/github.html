@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="secinfo">Secret Info of Dil Mahmud Khan</h1>
+    <input type="text" placeholder="Please type to delete" name="" id="delcon">
+    <button id="delete" disabled>Delete</button>
+
+    <script>
+
+        document.getElementById('delcon').addEventListener('keyup', function (event) {
+            const text = event.target.value;
+            const deletebtn = document.getElementById('delete');
+            if (text == "delete") {
+                deletebtn.removeAttribute('disabled');
+
+            }
+            else {
+                deletebtn.setAttribute('disabled', true);
+            }
+        })
+        document.getElementById('delete').addEventListener('click', function () {
+            const secret = document.getElementById('secinfo');
+            secret.style.display = 'none';
+        })
+    </script>
+</body>
+</html>

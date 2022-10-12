@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary</title>
+</head>
+
+<body>
+    <h1>Final Dom we will be using</h1>
+    <h3 id="default">Default Text</h3>
+    <button onclick="defa()">Handle by onclick default</button>
+    <button id="eventlist">Handle by add eventListener</button>
+    <br>
+    <br>
+
+    <p id="update-display">What is your name?</p>
+    <input id="input-field" type="text"><br>
+    <button id="btn-update">Update</button>
+    <script>
+
+        //option 1
+        function defa() {
+            const def = document.getElementById('default');
+            def.innerText = "This is default one";
+        }
+
+        //option 2
+        document.getElementById('eventlist').addEventListener('click',function(){
+            const def=document.getElementById('default');
+            def.innerText="This text is updated by eventlistener";
+        })
+
+
+        //option 2 to update 
+        document.getElementById('btn-update').addEventListener('click',function(){
+            const inputField=document.getElementById('input-field');
+            const inputText=inputField.value;
+
+            const p=document.getElementById('update-display');
+            p.innerText=inputText;
+            inputField.value='';
+        })
+
+
+
+    </script>
+</body>
+</html>

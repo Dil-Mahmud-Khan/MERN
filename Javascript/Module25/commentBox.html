@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CommentBox</title>
+</head>
+
+<body>
+    <h1>Please add your CommentBox</h1>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt alias dolorum ipsum itaque blanditiis nobis
+            architecto aspernatur eveniet iste corporis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, pariatur. Fugiat qui sit reiciendis
+            exercitationem voluptatem quasi, quod dolorem eum.</p>
+        <p id="comhere">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga saepe libero ut molestiae aperiam
+            consequuntur architecto impedit dignissimos accusamus sint!</p>
+    </div>
+
+
+        <textarea name="" id="new-comment" cols="30" rows="10"></textarea>
+        <br>
+        <button id="post">post</button>
+
+
+    <script>
+        document.getElementById('post').addEventListener('click', function () {
+            const dil=document.getElementById('new-comment');
+            const dilvalue=dil.value;
+
+            // const kaka=document.getElementById('comhere');
+            // kaka.innerText=dilvalue;
+            // dilvalue.value='';
+
+            const kaka=document.getElementById('comhere');
+            const p=document.createElement('p');
+            p.innerText=dilvalue;
+            kaka.appendChild(p);
+            dil.value='';
+        })
+    </script>
+    </form>
+</body>
+</html>

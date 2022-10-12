@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Practice</title>
+</head>
+
+<body>
+    <h1 id="secret">Ajke amar mon valo neiii</h1>
+    <input type="text" name="" id="confirminfo">
+    <button id="deleteit" disabled>Delete</button>
+
+    <script>
+
+        document.getElementById('confirminfo').addEventListener('keyup', function (event) {
+            const text = event.target.value;
+            const delb = document.getElementById('deleteit');
+            if (text == "delete") {
+                delb.removeAttribute('disabled');
+                
+            }
+            else {
+                delb.setAttribute('disabled', true);
+            }
+        })
+
+        document.getElementById('deleteit').addEventListener('click', function () {
+            const del = document.getElementById('secret');
+            del.style.display = 'none';
+
+
+
+        })
+    </script>
+</body>
+
+</html>

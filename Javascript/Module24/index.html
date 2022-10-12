@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <h1>Welcome to Dom</h1>
+        <section class="fruits">
+            <ul>
+                <li id="apple">Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+
+        <section class="place">
+            <ul class="desh">
+                <li id="apple">Tangail</li>
+                <li>gazipur</li>
+                <li>dhaka</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <script>
+        //getElementsByTagName
+        const liCollection = document.getElementsByTagName("li");
+        console.log(liCollection);
+        const headings = document.getElementsByTagName("h1");
+        // console.log(headings);
+
+        for (const h1 of headings) {
+            // console.log(h1.innerText);
+        }
+
+        //getElementById
+        const dil = document.getElementById("apple");
+        // console.log(dil);
+
+
+        //querySelector          (will return the first one)
+        //querySelectorAll
+        const someLi = document.querySelectorAll(".place li");
+        for (const li of someLi) {
+            // console.log(li.innerText);
+
+        }
+    </script>
+    <script src="append.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
