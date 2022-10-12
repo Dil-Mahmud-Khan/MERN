@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Fles</title>
+    <style>
+        .box {
+            border: 2px solid rebeccapurple;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        img {
+            width: 75%;
+        }
+
+        @media screen and (max-width:576px) {
+            .box {
+                background-color: rosybrown;
+
+            }
+
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width: 992px) {
+            .box {
+                background-color: seagreen;
+
+            }
+
+            .container {
+                grid-template-columns: repeat(2, 2fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/images.jpg" alt="">
+            <h2>Item-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque fugit placeat, amet illo quo
+                numquam deleniti sunt dolore, quod iusto quae, voluptatum repellendus accusantium molestiae. Fuga
+                consequatur repellendus reprehenderit.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="box">
+            <img src="/images.jpg" alt="">
+            <h2>Item-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque fugit placeat, amet illo quo
+                numquam deleniti sunt dolore, quod iusto quae, voluptatum repellendus accusantium molestiae. Fuga
+                consequatur repellendus reprehenderit.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="box">
+            <img src="/images.jpg" alt="">
+            <h2>Item-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque fugit placeat, amet illo quo
+                numquam deleniti sunt dolore, quod iusto quae, voluptatum repellendus accusantium molestiae. Fuga
+                consequatur repellendus reprehenderit.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="box">
+            <img src="/images.jpg" alt="">
+            <h2>Item-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque fugit placeat, amet illo quo
+                numquam deleniti sunt dolore, quod iusto quae, voluptatum repellendus accusantium molestiae. Fuga
+                consequatur repellendus reprehenderit.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="box">
+            <img src="/images.jpg" alt="">
+            <h2>Item-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque fugit placeat, amet illo quo
+                numquam deleniti sunt dolore, quod iusto quae, voluptatum repellendus accusantium molestiae. Fuga
+                consequatur repellendus reprehenderit.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="box">
+            <img src="/images.jpg" alt="">
+            <h2>Item-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque fugit placeat, amet illo quo
+                numquam deleniti sunt dolore, quod iusto quae, voluptatum repellendus accusantium molestiae. Fuga
+                consequatur repellendus reprehenderit.</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+</body>
+
+</html>

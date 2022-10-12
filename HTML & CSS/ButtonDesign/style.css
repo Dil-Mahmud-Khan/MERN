@@ -1,0 +1,56 @@
+#dq{
+    margin: 20px;
+    padding: 15px;
+    width: 220px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border-radius: 5px 5px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #FFC312, #EE5A24 ,#FFC312);
+    background-size: 200%;
+    font-weight: 300;
+}
+#dd{
+    margin: 20px;
+    padding: 15px;
+    width: 220px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border-radius: 5px 5px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to left,#686de0, #4834d4,#686de0);
+    background-size: 300%;
+    font-weight: 300;
+}
+#de{
+    margin: 20px;
+    padding: 15px;
+    width: 220px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border-radius: 5px 5px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #badc58,#6ab04c,#badc58);
+    background-size: 200%;
+    font-weight: 300;
+}
+#ds{
+    margin: 20px;
+    padding: 15px;
+    width: 220px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #fd79a8,#e84393,#fd79a8);
+    background-size: 200%;
+    font-weight: 300;
+}
