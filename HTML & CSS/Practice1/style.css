@@ -1,0 +1,131 @@
+#pic1 {
+    height: 100%;
+    width: 100%;
+    justify-items: right;
+}
+
+.flex {
+    display: flex;
+    margin: 25px;
+}
+
+#color {
+    color: rgb(231, 88, 21);
+}
+
+body {
+    font-family: 'Lora', serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: rgb(252, 99, 29);
+    font-weight: 100;
+    font-size: 17px;
+    border-radius: 25px;
+    color: white;
+
+    background-image: linear-gradient(orange tomato);
+}
+
+.flex2 {
+    display: flex;
+
+}
+
+#pic2 {
+    height: 100%;
+    width: 120%;
+}
+
+.mar {
+    margin: 45px;
+}
+
+.button2 {
+    padding: 10px 40px;
+    background-color: rgb(252, 99, 29);
+    font-weight: 100;
+    font-size: 17px;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(orange tomato);
+}
+
+.backpic {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: none;
+    width: 100%;
+    height: 100%;
+}
+
+.recp {
+    align-items: center;
+    text-align: center;
+}
+
+.kaka {
+    text-align: center;
+    align-items: center;
+}
+
+#pic3 {
+    height: 300px;
+}
+
+.yoyo {
+
+    display: flex;
+}
+
+.dada {
+    box-shadow: 10px 10px 40px gray;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.li {
+    list-style: none;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 40px;
+}
+
+.ti {
+    font: bolder;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.lastone {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.col {
+    color: yellowgreen;
+}
+
+.foot {
+    text-align: center;
+    background-color: rgb(17, 14, 49);
+    padding: 30px 30px 30px 30px;
+}
+
+.cola {
+    color: white;
+}
+
+.colar {
+    color: white;
+    font-family: cursive;
+    font-weight: 100;
+}

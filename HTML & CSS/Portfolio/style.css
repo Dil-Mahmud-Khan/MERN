@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lora', serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+.orange {
+    color: orange;
+}
+
+.fc {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.hw {
+    width: 50%;
+    padding-left: 2%;
+
+}
+
+.hw img {
+    width: 90%;
+}
+
+.lb {
+    text-decoration: none;
+    background-color: rgb(211, 101, 28);
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(orange tomato);
+    color: white;
+
+}
+
+.tb {
+    background-image: url(\top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.db {
+    background-image: url(\developer-portfolio-master\images/dream-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.ei {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ea {
+    background-image: url(/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#yo {
+    border-left: 7px solid tomato;
+}
+
+#ya {
+    border-left: 7px solid rgb(26, 181, 219);
+}
+
+#kk {
+    text-align: center;
+}
