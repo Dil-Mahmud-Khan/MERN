@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal News Bangladesh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .dil {
+            display: flex;
+            display: inline-block;
+            justify-content: space-between;
+            background-color: beige;
+            margin: 2px;
+            padding: 7px;
+            border-radius: 5px;
+            margin-left: 56px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <div class="flex justify-between">
+            <h3 class="p-3 bg-green-400 rounded">Royal News Bangladesh</h3>
+            <div class="flex mx-3 g-5">
+                <button id="news" class="p-3 mr-2  bg-green-400 rounded">News</button>
+                <button id="blog" class="p-3  bg-green-400 rounded ">Blog</button>
+            </div>
+        </div> -->
+        <div class="border-gray-700 px-4  sm:px-4 py-3 mb-2">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <h3 class="p-3 bg-green-400 rounded">Royal News Bangladesh</h3>
+
+                <div class="block">
+                    <ul class="flex rounded-lg border-gray-100 flex-row space-x-8 mt-0 text-sm font-medium border-0">
+                        <li>
+                            <a class="block p-3 bg-green-400 rounded" href="index.html">News</a>
+                        </li>
+                        <li>
+                            <a class="block p-3 bg-green-400 rounded" href="blog.html">Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="border-1 shadow">
+            <ul class="flex justify-around" id="display-cat">
+
+            </ul>
+        </div>
+
+        <div class="container mx-auto border-1">
+            <div id="item">
+
+            </div>
+        </div>
+
+
+        <div class="my-10">
+            <div class="container mx-auto">
+                <div id="container">
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

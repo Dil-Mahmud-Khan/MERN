@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="flex bg-black">
+        <div>
+            <img class="w-100" src="bappe.-removebg-preview.png" alt="">
+        </div>
+        <div class="text-white mt-12 pl-8">
+            <h2 class="text-yellow-500 text-5xl px-5 italic font-serif align-middle">Best Five Footballers</h2>
+            <h2 class="text-justify text-neutral-300 mt-2">Lorem ipsum dolor sit sadssgadsag asdfasdfsa sdfasd
+                sdfadreadasf sadfa
+                consectetur adipisicing eli Lorem ipsum dolor sit, amet consecte adipisicing elit. Optio, qui? Nam
+                dolore</h2>
+        </div>
+        <div>
+            <img class="w-5/6 ml-5 " src="f1.png" alt="">
+        </div>
+    </div>
+
+    <div class="bg-black justify-between ">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-1 gap-5 mx-12 py-12 ">
+            <div class="w-5/6 border">
+                <img id="w-36" src="kante2.jpg" alt="">
+                <h1 class="text-white flex justify-center font-semibold text-2xl ">Kante</h1>
+                <h1 class="text-neutral-300 flex justify-center">36 Goals * 97 Assists</h1>
+                <div class="text-white text-2xl bg-sky-700  my-5 mx-8 flex justify-center">
+                    <button id="select">Select</button>
+                </div>
+            </div>
+            <div class="w-5/6 border">
+                <img id="w-36" src="marcelo.jpg" alt="">
+                <h1 class="text-white flex justify-center font-semibold text-2xl ">Marcelo</h1>
+                <h1 class="text-neutral-300 flex justify-center">36 Goals * 97 Assists</h1>
+                <div class="text-white text-2xl bg-sky-700  my-5 mx-8 flex justify-center">
+                    <button id="select2">Select</button>
+                </div>
+            </div>
+            <div class="w-5/6 border">
+                <img id="w-36" src="maria.jpg" alt="">
+                <h1 class="text-white flex justify-center font-semibold text-2xl ">Maria</h1>
+                <h1 class="text-neutral-300 flex justify-center">36 Goals * 97 Assists</h1>
+                <div class="text-white text-2xl bg-sky-700  my-5 mx-8 flex justify-center">
+                    <button id="select3">Select</button>
+                </div>
+            </div>
+            <div id="name">
+                <h2 class="text-white font-semibold text-2xl flex justify-center">Selected Five</h2>
+                <div>
+                    <ol id="places-list" class=" text-white mt-5 justify-center ">
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="w-5/6 border">
+                <img id="w-36" src="mullar.jpg" alt="">
+                <h1 class="text-white flex justify-center font-semibold text-2xl ">Mullar</h1>
+                <h1 class="text-neutral-300 flex justify-center">36 Goals * 97 Assists</h1>
+                <div class="text-white text-2xl bg-sky-700  my-5 mx-8 flex justify-center">
+                    <button id="select4">Select</button>
+                </div>
+            </div>
+            <div class="w-5/6 border">
+                <img id="w-36" src="bappe2.jpeg" alt="">
+                <h1 class="text-white flex justify-center font-semibold text-2xl ">Embappe</h1>
+                <h1 class="text-neutral-300 flex justify-center">36 Goals * 97 Assists</h1>
+                <div class="text-white text-2xl bg-sky-700  my-5 mx-8 flex justify-center">
+                    <button id="select5">Select</button>
+                </div>
+            </div>
+            <div class="w-5/6 border">
+                <img id="w-36" src="marcelo.jpg" alt="">
+                <h1 class="text-white flex justify-center font-semibold text-2xl ">Casamero</h1>
+                <h1 class="text-neutral-300 flex justify-center">36 Goals * 97 Assists</h1>
+                <div class="text-white text-2xl bg-sky-700  my-5 mx-8 flex justify-center">
+                    <button id="select6">Select</button>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-white text-2xl flex justify-center font-semibold">Budget</h2>
+                <div class="flex mt-5 ">
+                    <h2 class=" text-neutral-300 align-middle text-2sm pr-5 ">Per Player:</h2>
+                    <input id="per-player" class="border   bg-black text-white h-7 w-3/5" type="text">
+                </div>
+                <button id="calculate"
+                    class="text-white ml-5 flex justify-center bg-sky-700 px-20 mt-5 p-2 ">Calculate</button>
+                <h2 class="text-neutral-300 flex justify-center text-2sm pr-5 mt-5">Player Expenses: $<span
+                        id="player-expense">1200</span></h2>
+                <div class="flex mt-5 ">
+                    <h2 class="text-neutral-300 align-middle text-2sm pr-5 ">Manager:</h2>
+                    <input id="manager" class="border bg-black text-white h-7 w-3/5" type="text">
+                </div>
+                <div class="flex mt-5 ">
+                    <h2 class="text-neutral-300 align-middle text-2sm pr-5 ">Coach:</h2>
+                    <input id="coach" class="border ml-5  bg-black text-white h-7 w-3/5" type="text">
+                </div>
+                <button id="calculate-total"
+                    class="text-white  flex justify-center bg-sky-700  px-20 mt-5 p-2">Calculate Total</button>
+                <h2 class="text-neutral-300 flex justify-center text-2sm pr-5 mt-5">Total: $<span id="total">1200</span>
+                </h2>
+
+            </div>
+        </div>
+    </div>
+    <script src="append.js"></script>
+    <script src="add.js"></script>
+</body>
+
+</html>
